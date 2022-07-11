@@ -4,7 +4,7 @@ Is a simple server API with express
 
 ## Installation
 
-Use the package manager [node](https://pip.pypa.io/en/stable/) to install all the dependencies.
+Use the package manager [node](https://nodejs.org/en/) to install all the dependencies.
 
 ```bash
 npm i
