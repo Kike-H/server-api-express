@@ -8,5 +8,8 @@ user.get('/', (req, res) => {
     res.send(users)
 });
 
+user.get('/:id', (req, res) => {
+    res.send(users.filter(user => user.id === parseInt(req.params.id)));
+})
 
 module.exports = user;
